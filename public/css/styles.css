@@ -1,3 +1,8 @@
-body{
-    background-color: red;
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columm{
+    align-self: center;
 }
