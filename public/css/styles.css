@@ -1,8 +1,15 @@
-.container{
-    display: flex;
-    justify-content: space-between;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas de igual ancho */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas de altura automática */
+    gap: 10px;
+    /* Espacio entre los elementos de la grilla */
+    padding: 10px;
+    /* Espacio dentro del contenedor */
 }
 
-.columm{
+.columm {
     align-self: center;
 }
