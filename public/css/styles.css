@@ -6,6 +6,7 @@
     /* 1 filas de altura automática */
     align-items: center;
     justify-items: space-between;
+    
 }
 .container_sales{
     display: grid;
@@ -13,15 +14,29 @@
     /* 3 columnas de igual ancho */
     grid-template-rows: repeat(1, 1fr);
     /* 1 filas de altura automática */
+    padding: 15px;
     
 }
 
 .container_products{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* 3 columnas de igual ancho */
+    /* 4 columnas de igual ancho */
     grid-template-rows: repeat(1, 1fr);
     /* 1 filas de altura automática */
+    background-color: #e2e2e2;
+    width: 90%;
+    margin:0 auto;
+    gap: 30px;
+    padding: 15px;
+}
+
+.container_descuento{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+    border-top: 1px solid #e2e2e2 ;
+    align-items: baseline;
     
 }
 
@@ -38,12 +53,20 @@
     padding: 5px;
 } 
 
+.column_products {
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    background-color: white;
+    
+}
 
 .column-logo {
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 5px;    
+    padding: 5px;  
 }
 
 .search-container {
@@ -64,5 +87,62 @@
     justify-content: center; 
 }
 
+.ajustar-imagen-product{
+    width: 90%;
+    height: auto;
+}
 
+.precios{
+    font-size: 18px;
+    font-style:normal;
+    color: black;
+    font-weight: lighter;
+}
 
+.dcto{
+    font-size: 16px;
+    font-style:normal;
+    color: #39b54a;
+    font-weight: lighter;
+}
+
+.descripcion{
+    font-size: 16px;
+    font-weight: lighter;
+    color:#666;  
+}
+
+.titulares{
+    font-size: 24px;
+    font-style:bold;
+    color:#666;
+    padding-left: 15px;
+    
+}
+
+.md-product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px 10px 10px 10px;
+}
+
+.descripcion-footer{
+    font-size: 24px;
+    font-weight: bold;
+    color:#666; 
+}
+
+.cuerpo-texto{
+    font-size: 16px;
+    font-weight: lighter;
+    color:#666;
+    margin: 5px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    color:#1259c3;
+}
