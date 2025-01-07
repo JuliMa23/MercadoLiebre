@@ -19,10 +19,10 @@
 }
 
 .container_products{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    /*grid-template-columns: repeat(4, 1fr);
     /* 4 columnas de igual ancho */
-    grid-template-rows: repeat(1, 1fr);
+    /*grid-template-rows: repeat(1, 1fr);
     /* 1 filas de altura automática */
     background-color: #e2e2e2;
     width: 90%;
@@ -38,6 +38,10 @@
     border-top: 1px solid #e2e2e2 ;
     align-items: baseline;
     
+}
+
+.container-total{
+    max-width: 1300px;
 }
 
 .column {
